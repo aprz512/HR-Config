@@ -1,0 +1,101 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "起手可以留 虚空行者 烈焰小鬼 玛克扎尔的小鬼 狗头人图书管理员 粗俗的矮劣魔 ",
+				"mulligan":"CS2_065, EX1_319, KAR_089, LOOT_013, LOOT_014",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 虚空行者 + 恶魔之火 ",
+				"mulligan":"CS2_065 + EX1_596",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 烈焰小鬼 + 恶魔之火 ",
+				"mulligan":"EX1_319 + EX1_596",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 玛克扎尔的小鬼 + 恶魔之火 ",
+				"mulligan":"KAR_089 + EX1_596",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 玛克扎尔的小鬼 + 粗俗的矮劣魔 + 恶魔之火 ",
+				"mulligan":"KAR_089 + EX1_596 + LOOT_013",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 烈焰小鬼 + 恶魔之火 + 粗俗的矮劣魔 ",
+				"mulligan":"EX1_319 + EX1_596 + LOOT_013",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 虚空行者 + 恶魔之火 + 粗俗的矮劣魔 ",
+				"mulligan":"CS2_065 + EX1_596 + LOOT_013",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 烈焰小鬼 + 虚空行者 + 血怒药水 ",
+				"mulligan":"CS2_065 + EX1_319 + CFM_611",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "起手可以留 烈焰小鬼 + 玛克扎尔的小鬼 + 血怒药水 ",
+				"mulligan":"KAR_089 + EX1_319 + CFM_611",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "夜色镇议员 有硬币 有小随从可以留一下",
+				"mulligan":"OG_113",
+				"condition": "my_hand(count(), cost = 1, minion) > 1 AND coin opp_hero(count(), hero_class = paladin | mage) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "焦油爬行者 有硬币 有小随从可以留一下",
+				"mulligan":"UNG_928",
+				"condition": "my_hand(count(), cost = 1, minion) > 1 AND coin AND opp_hero(count(), hero_class = paladin | mage) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Spellbreaker (EX1_048) vs Warlock and Rogue.",
+				"mulligan":"EX1_048",
+				"condition": "opp_hero(count(), hero_class = warlock) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

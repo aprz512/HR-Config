@@ -1,0 +1,47 @@
+{
+	"GameCardId":"EX1_310",
+	"ConfigComment":"末日守卫",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"如果 DK 在手上，并且牌不多,不要使用.",
+				"condition": "my_hand(count(), cardid = ICC_831) > 0 AND my_hand(count()) < 4",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"如果我方有玛尔扎克的小鬼，可以优先使用.",
+				"condition": "my_minions(count(), cardid = KAR_089) > 0",
+				"value":"50",
+			},
+			
+			{
+				"comment":"就是要莽.",
+				"condition": "my_hand(count()) > 3",
+				"value":"30",
+			},
+			
+			{
+				"comment":"就是要莽.",
+				"condition": "my_hand(count()) < 3",
+				"value":"50",
+			},
+		],
+	
+	},
+	
+	"BeforeUseHeroPowerBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"不要使用英雄技能，还应该考虑法力值，但是没有找到对应的方法",
+				"condition": "*",
+				"value":"0",
+			},
+		],
+	},
+}

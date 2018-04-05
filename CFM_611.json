@@ -1,0 +1,25 @@
+{
+	"GameCardId":"CFM_611",
+	"ConfigComment":"血怒药水",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"如果场上有恶魔，优先使用.",
+				"condition": "my_minions(count(), demon=true) > 0",
+				"value":"50",
+			},
+			
+			{
+				"comment":"如果场上没有我方随从，不能使用.",
+				"condition": "my_minions(count()) < 1",
+				"value":"-1000",
+			},
+			
+		],
+	
+	},
+	
+}

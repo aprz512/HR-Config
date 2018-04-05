@@ -1,0 +1,33 @@
+{
+	"GameCardId":"LOOT_167",
+	"ConfigComment":"菌菇术士",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Lose value playing this without minions if you have some in your hand.",
+				"condition": "my_hand(count(), minioncard) > 1 AND my_minions(count()) < 1",
+				"value":"-100",
+			},
+		],
+	},
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"一个随从可以下",
+				"condition": "my_minions(count()) > 0",
+				"value":"20",
+			},
+			{
+				"comment":"两个随从更要下",
+				"condition": "my_minions(count()) > 1",
+				"value":"50",
+			},
+		],
+	},
+}

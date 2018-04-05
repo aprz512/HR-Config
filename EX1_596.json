@@ -1,0 +1,19 @@
+{
+	"GameCardId":"EX1_596",
+	"ConfigComment":"恶魔之火",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"如果场上有恶魔，优先使用.",
+				"condition": "my_minions(count(), demon=true) > 0",
+				"value":"50",
+			},
+			
+		],
+	
+	},
+	
+}

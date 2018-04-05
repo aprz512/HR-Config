@@ -1,0 +1,31 @@
+{
+	"GameCardId":"CFM_610",
+	"ConfigComment":"魔瘾结晶者",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"如果场上有恶魔，优先使用.",
+				"condition": "my_minions(count(), demon=true) > 0",
+				"value":"50",
+			},
+			
+			{
+				"comment":"如果没有配合的牌，也可以使用",
+				"condition": "my_hand(count(), demon=true) < 1",
+				"value":"40",
+			},
+			
+			{
+				"comment":"质量不差",
+				"condition": "*",
+				"value":"25",
+			},
+			
+		],
+	
+	},
+	
+}

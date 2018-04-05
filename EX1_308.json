@@ -1,0 +1,29 @@
+{
+	"GameCardId":"EX1_308",
+	"ConfigComment":"灵魂之火",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"如果我方有玛尔扎克的小鬼，可以优先使用.",
+				"condition": "my_minions(count(), cardid = KAR_089) > 0",
+				"value":"50",
+			},
+		],
+	},
+	
+	
+	"BeforeUseHeroPowerBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"如果手里只有一张牌，先用掉",
+				"condition": "my_hand(count()) < 1",
+				"value":"-1000",
+			},
+		],
+	},
+}
