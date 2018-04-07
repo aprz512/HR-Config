@@ -1,0 +1,17 @@
+{
+	"GameCardId":"UNG_073",
+	"ConfigComment":"石塘猎人",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"有鱼人仆从的话，.",
+				"condition": "my_minions(count(), murloc) > 0",
+				"value":"30",
+			}
+		],
+	},
+
+}

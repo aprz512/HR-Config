@@ -1,0 +1,73 @@
+{
+	"GameCardId":"UNG_075",
+	"ConfigComment":"凶恶的雏龙",
+	
+	
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+		
+			{
+				"comment":"风怒",
+				"condition": "my_discover(count(), cardid = UNG_999t7) > 0",
+				"value":"10",
+			},
+			
+			{
+				"comment":"+3生命值",
+				"condition": "my_discover(count(), cardid = UNG_999t4) > 0",
+				"value":"10",
+			},
+			
+			{
+				"comment":"圣盾",
+				"condition": "my_discover(count(), cardid = UNG_999t8) > 0",
+				"value":"10",
+			},
+			
+			{
+				"comment":"+3攻击力",
+				"condition": "my_discover(count(), cardid = UNG_999t3) > 0",
+				"value":"7",
+			},
+			
+			{
+				"comment":"潜行",
+				"condition": "my_discover(count(), cardid = UNG_999t10) > 0",
+				"value":"7",
+			},
+				
+			{
+				"comment":"剧毒",
+				"condition": "my_discover(count(), cardid = UNG_999t13) > 0",
+				"value":"7",
+			},
+			
+			{
+				"comment":"召唤两个1/1的植物",
+				"condition": "my_discover(count(), cardid = UNG_999t2) > 0",
+				"value":"5",
+			},
+			
+			{
+				"comment":"+1生命值+1攻击力",
+				"condition": "my_discover(count(), cardid = UNG_999t14) > 0",
+				"value":"5",
+			},	
+			
+			{
+				"comment":"无法成为法术或英雄技能的目标",
+				"condition": "my_discover(count(), cardid = UNG_999t5) > 0",
+				"value":"5",
+			},
+			
+			{
+				"comment":"嘲讽",
+				"condition": "my_discover(count(), cardid = UNG_999t6) > 0",
+				"value":"1",
+			},
+
+		],
+	},
+}

@@ -1,0 +1,17 @@
+{
+	"GameCardId":"EX1_507",
+	"ConfigComment":"鱼人领军",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"有鱼人仆从的话，比较多的话.",
+				"condition": "my_minions(count(), murloc) > 1",
+				"value":"50",
+			}
+		],
+	},
+
+}

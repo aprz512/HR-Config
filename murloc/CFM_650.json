@@ -1,0 +1,31 @@
+{
+	"GameCardId":"CFM_650",
+	"ConfigComment":"暗鳞劫掠者",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[			{
+				"comment":"手里没有鱼人的话，尽量不要使用.",
+				"condition": "my_hand(count(), murloc) < 1",
+				"value":"0",
+			}
+
+		],
+	},
+	
+	"InHandPlayPriority":
+	{
+
+		"values":
+		[
+			{
+				"comment":"手里有鱼人的话，优先打出这个卡.",
+				"condition": "my_hand(count(), murloc) > 0",
+				"value":"30",
+			}
+
+		],
+
+	},
+}

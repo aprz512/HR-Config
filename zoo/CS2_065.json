@@ -1,0 +1,18 @@
+{
+	"GameCardId":"CS2_065",
+	"ConfigComment":"虚空行者",
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"可以先出",
+				"condition": "*",
+				"value":"7",
+			},
+		],
+	},
+	
+
+}

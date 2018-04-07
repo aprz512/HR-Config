@@ -1,0 +1,17 @@
+{
+	"GameCardId":"OG_006",
+	"ConfigComment":"邪鳍审判者",
+
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"comment":"优先打出这个卡.",
+				"condition": "*",
+				"value":"50",
+			}
+		],
+	},
+
+}

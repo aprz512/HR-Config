@@ -15,19 +15,25 @@
 			{
 				"comment":"如果我方有玛尔扎克的小鬼，可以优先使用.",
 				"condition": "my_minions(count(), cardid = KAR_089) > 0",
-				"value":"50",
-			},
-			
-			{
-				"comment":"就是要莽.",
-				"condition": "my_hand(count()) > 3",
 				"value":"30",
 			},
 			
 			{
 				"comment":"就是要莽.",
-				"condition": "my_hand(count()) < 3",
-				"value":"50",
+				"condition": "my_hand(count()) > 4",
+				"value":"10",
+			},
+			
+			{
+				"comment":"不能太莽了.",
+				"condition": "my_hand(count()) > 1 AND my_hand(count()) < 5",
+				"value":"5",
+			},
+			
+			{
+				"comment":"就是要莽.",
+				"condition": "my_hand(count()) < 2",
+				"value":"20",
 			},
 		],
 	
@@ -42,6 +48,7 @@
 				"condition": "*",
 				"value":"0",
 			},
+		
 		],
 	},
 }

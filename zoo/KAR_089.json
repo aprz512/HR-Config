@@ -1,0 +1,24 @@
+{
+	"GameCardId":"KAR_089",
+	"ConfigComment":"玛克扎尔的小鬼",
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"可以先出",
+				"condition": "*",
+				"value":"8",
+			},
+			
+			{
+				"comment":"如果手里有灵魂火或者末日守卫",
+				"condition": "my_hand(count(), cardid = EX1_308 | EX1_310) > 0",
+				"value":"11",
+			},
+		],
+	},
+	
+
+}

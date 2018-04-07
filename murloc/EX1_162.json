@@ -1,0 +1,20 @@
+{
+	"GameCardId":"EX1_162",
+	"ConfigComment":"Dire Wolf Alpha config 恐狼前锋",
+
+	"InHandPlayPriority":
+		{
+
+			"values":
+
+			[
+				{
+				"condition": "my_minions(count(),)>=1",
+
+				"value":"100",
+				}
+
+			],
+
+		},
+}

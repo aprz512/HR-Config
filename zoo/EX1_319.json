@@ -1,0 +1,17 @@
+{
+	"GameCardId":"EX1_319",
+	"ConfigComment":"烈焰小鬼",
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"可以先出",
+				"condition": "*",
+				"value":"10",
+			},
+		],
+	},
+
+}

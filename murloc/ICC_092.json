@@ -1,0 +1,35 @@
+{
+    "GameCardId":"ICC_092",    
+    "ConfigComment":"Acherus Veteran config  阿彻鲁斯老兵", 
+
+	"InHandPlayPriority": 
+	          
+		{
+
+			"values":
+
+			[
+						  		
+				{						  		  
+						  	
+				"condition": "my_minions(count(),)>=1",
+
+				"value":"100",
+						  		
+				}
+
+			],
+
+		},     
+
+         "BeforePlayCardBonus":
+ 		{
+                	"values":
+                 	[
+                       		{           
+                      		"condition": "my_minions(count(),)<1",
+                     		"value":"-10",
+                      		}
+                   	],
+		},
+}

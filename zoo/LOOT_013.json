@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_013",
+	"ConfigComment":"粗俗的矮劣魔",
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"可以先出",
+				"condition": "*",
+				"value":"9",
+			},
+		],
+	},
+}
