@@ -1,44 +1,26 @@
-### Murloc Paladin
-# Class: Paladin
-# Format: Standard
-# Year of the Mammoth
+### qishi
+# 职业：圣骑士
+# 模式：标准模式
+# 猛犸年
 #
-# 2x (1) Grimscale Chum
-# 2x (1) Murloc Tidecaller
-# 2x (1) Righteous Protector
-# 2x (1) Vilefin Inquisitor
-# 2x (2) Hydrologist
-# 2x (2) Knife Juggler
-# 2x (2) Rockpool Hunter
-# 1x (3) Coldlight Seer
-# 2x (3) Divine Favor
-# 2x (3) Murloc Warleader
-# 2x (3) Rallying Blade
-# 2x (3) Unidentified Maul
-# 1x (4) Blessing of Kings
-# 2x (4) Call to Arms
-# 2x (4) Gentle Megasaur
-# 1x (4) Spellbreaker
-# 1x (6) Sunkeeper Tarim
+# 2x (1) 暗鳞劫掠者
+# 2x (1) 正义保护者
+# 2x (1) 邪鳍审判者
+# 2x (1) 鱼人招潮者
+# 2x (2) 水文学家
+# 2x (2) 石塘猎人
+# 2x (2) 飞刀杂耍者
+# 1x (3) 寒光先知
+# 2x (3) 未鉴定的重槌
+# 2x (3) 神恩术
+# 2x (3) 鱼人领军
+# 2x (4) 战斗号角
+# 2x (4) 温顺的巨壳龙
+# 2x (4) 王者祝福
+# 1x (4) 破法者
+# 1x (5) 火车王里诺艾
+# 1x (6) 守日者塔林姆
 # 
-AAECAaToAgTFA/IFrwe5wQIN2wOnBacIsQjTqgLZrgLTvAKzwQKdwgKxwgLjywL40gLW5QIA
-
-
-
-Grimscale Chum 		(CFM_650)
-Murloc Tidecaller 	(EX1_509)
-Righteous Protector (ICC_038)
-Vilefin Inquisitor 	(OG_006)
-Hydrologist 		(UNG_011)
-Knife Juggler 		(NEW1_019)
-Rockpool Hunter 	(UNG_073)
-Coldlight Seer 		(EX1_103)
-Divine Favor 		(EX1_349)
-Murloc Warleader 	(EX1_507)
-Rallying Blade		(OG_222)
-Unidentified Maul 	(LOOT_286) [Recruits: LOOT_286t1, Taunt: LOOT_286t2, Attack: LOOT_286t3, Divine Shield: LOOT_286t4]
-Blessing of Kings	(CS2_092)
-Call to Arms 		(LOOT_093)
-Gentle Megasaur 	(UNG_089)
-Spellbreaker 		(EX1_048)
-Sunkeeper Tarim 	(UNG_015)
+AAECAZ8FBMUDrwTyBbnBAg3bA6cFrwenCLEI06oC07wCs8ECncICscIC48sC+NIC1uUCAA==
+# 
+# 想要使用这副套牌，请先复制到剪贴板，然后在游戏中点击“新套牌”进行粘贴。
