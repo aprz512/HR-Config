@@ -1,0 +1,49 @@
+{
+
+	"GameCardId":"Combo",      
+
+	"ConfigComment":"This is the combo config file.",
+
+			
+
+	"ComboList":
+
+	{
+
+	   "values":
+
+	   [
+
+			{                                                  
+
+			  "comment":"恐狼 + 突袭",                     
+
+					 "condition": "*",
+
+					 "combo":"EX1_162 >> GIL_143",
+
+					 "value":"20 >> 30",
+
+			},
+
+			  {
+
+			  "comment":"恐狼 + 突袭",                   
+
+					 "condition": "*",
+
+					 "combo":"EX1_162 >-> GIL_143",
+
+					 "value":"20 >-> 30",
+
+			},
+
+
+
+	   ],
+
+	 },                                        
+
+                 
+
+}

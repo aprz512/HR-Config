@@ -1,0 +1,45 @@
+{
+
+	"GameCardId":"Presume",    
+
+	"ConfigComment":"This file setup opponent's hand card. 不知道这个有没有屌用，说不定还会降低胜率",
+
+
+
+	"PresumeOppInHandCard":
+	{
+
+		"values":
+
+		[
+			{                                                  
+
+				"comment":"防一手破晓之龙",              
+
+				"condition": "opp_hero(count(), priest=true) > 0 AND my_hero(turn()) >= 4",
+
+				"inhand":"LOOT_410",
+
+				"value":"1",
+
+			},
+			
+			{                                                  
+
+				"comment":"防一手传播瘟疫",              
+
+				"condition": "opp_hero(count(), druid=true) > 0 AND my_hero(turn()) >= 6",
+
+				"inhand":"ICC_054",
+
+				"value":"1",
+
+			}
+
+		],
+
+	},                                        
+
+                 
+
+}
