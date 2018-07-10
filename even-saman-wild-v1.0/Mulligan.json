@@ -1,0 +1,45 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules. --- 有时间补充一下这个起手留牌，总感觉写的有点问题",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "阴燃电鳗 Murkspark Eel (GIL_530), 图腾魔像 Totem Golem (AT_052), 青玉之爪 Jade Claws (CFM_717), 鬼灵爬行者 Haunted Creeper (FP1_002). --- 必留",
+				"mulligan":"GIL_530, AT_052, CFM_717, FP1_002",
+				"condition": "*",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "恐狼前锋 Dire Wolf Alpha (EX1_162) without cards above. --- 没有上面的可以留恐狼",
+				"mulligan":"EX1_162",
+				"condition": "my_hand(count(), cardid = GIL_530 | AT_052 | CFM_717 | FP1_002) < 1",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "火舌图腾 Flametongue Totem (EX1_565) without cards above. --- 没有上面的可以留火舌图腾",
+				"mulligan":"EX1_565",
+				"condition": "my_hand(count(), cardid = GIL_530 | AT_052 | CFM_717 | FP1_002 | EX1_162) < 1",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "大漩涡传送门 Hold Maelstrom Portal (KAR_073) when against classes with low health minions. --- 对阵战士/牧师/盗贼留大漩涡",
+				"mulligan":"KAR_073",
+				"condition": "opp_hero(count(), hero_class = warrior | paladin | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold --- 换掉其余的牌",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}
