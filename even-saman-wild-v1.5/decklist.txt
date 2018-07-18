@@ -2,6 +2,7 @@
 # 职业：萨满祭司
 # 模式：狂野模式
 #
+# 1x (2) 先祖知识
 # 2x (2) 图腾魔像
 # 2x (2) 大漩涡传送门
 # 2x (2) 恐狼前锋
@@ -10,7 +11,7 @@
 # 2x (2) 连环爆裂
 # 2x (2) 阴燃电鳗
 # 2x (2) 青玉之爪
-# 2x (4) 德莱尼图腾师
+# 1x (4) 德莱尼图腾师
 # 2x (4) 投火无面者
 # 1x (4) 破法者
 # 2x (4) 青玉闪电
@@ -20,6 +21,6 @@
 # 1x (8) 巫妖王
 # 2x (10) 海巨人
 # 
-AAEBAaoIBPIFlL0Cws4CzfQCDdMB2QfwB9YPshS1FPeqAvuqAqC2Aoe8AtG8Ava9ApTvAgA=
+AAEBAaoIBvIF0hO1FJS9AsLOAs30AgzTAdkH8AfWD7IU96oC+6oCoLYCh7wC0bwC9r0ClO8CAA==
 # 
 # 想要使用这副套牌，请先复制到剪贴板，然后在游戏中点击“新套牌”进行粘贴。
