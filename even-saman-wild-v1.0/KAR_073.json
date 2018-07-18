@@ -1,0 +1,21 @@
+{
+	"GameCardId":"KAR_073",
+	"ConfigComment":"大漩涡传送门",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"对面是萨满的时候，至少要有3个随从再放",
+				"condition": "opp_minions(count()) < 3 AND opp_hero(count(), hero_class = shaman) > 0",
+				"value":"10",
+			},
+			{
+				"comment":"*",
+				"condition": "opp_minions(count()) < 1",
+				"value":"0",
+			}
+		],
+	},
+}

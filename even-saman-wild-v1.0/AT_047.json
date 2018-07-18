@@ -1,0 +1,23 @@
+{
+	"GameCardId":"AT_047",	
+	"ConfigComment":"德莱尼图腾师",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"我方图腾越多越好",  		  
+				"condition": "my_minions(count(), totem) > 1",
+				"value":"60",
+			},
+
+			{
+				"comment":"我方图腾越多越好，在 4 费的时候，出这个很牛逼",  		  
+				"condition": "my_minions(count(), totem) > 1 AND my_hero(turn()) == 4",
+				"value":"95",
+			},
+		],
+	},
+
+}

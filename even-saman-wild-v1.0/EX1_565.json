@@ -1,0 +1,22 @@
+{
+	"GameCardId":"EX1_565",	
+	"ConfigComment":"火舌图腾",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"如果场上有随从就可以下",  		  
+				"condition": "my_minions(count()) > 1",
+				"value":"60",
+			},
+			{
+				"comment":"如果场上有随从就可以下，有232风怒就更好了",  		  
+				"condition": "my_minions(count()) > 1 AND my_minions(count(), cardid = GVG_037) > 0",
+				"value":"100",
+			},
+		],
+	},
+
+}

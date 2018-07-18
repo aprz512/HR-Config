@@ -1,0 +1,22 @@
+{
+	"GameCardId":"OG_024",	
+	"ConfigComment":"投火无面者",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"4费准时投火",  		  
+				"condition": "my_hero(turn()) == 4",
+				"value":"100",
+			},
+			{
+				"comment":"*",  		  
+				"condition": "*",
+				"value":"90",
+			},
+		],
+	},
+
+}

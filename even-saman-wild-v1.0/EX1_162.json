@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_162",
+	"ConfigComment":"恐狼前锋",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"场上有随从再下",
+				"condition": "my_minions(count()) < 1",
+				"value":"0",
+			}
+		],
+	},
+}

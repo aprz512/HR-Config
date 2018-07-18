@@ -1,0 +1,22 @@
+{
+	"GameCardId":"GVG_037",	
+	"ConfigComment":"自动漩涡打击装置",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"2费下这个就很吊，并且对方还没有随从",  		  
+				"condition": "my_hero(turn()) == 2 AND opp_minions(count()) < 1",
+				"value":"100",
+			},
+			{
+				"comment":"*",  		  
+				"condition": "*",
+				"value":"40",
+			},
+		],
+	},
+
+}

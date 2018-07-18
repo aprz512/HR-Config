@@ -1,0 +1,17 @@
+{
+	"GameCardId":"AT_052",	
+	"ConfigComment":"图腾魔像",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"2费下这个就很吊",  		  
+				"condition": "my_hero(turn()) < 4",
+				"value":"90",
+			},
+		],
+	},
+
+}
