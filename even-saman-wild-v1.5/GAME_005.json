@@ -1,0 +1,17 @@
+{
+	"GameCardId":"GAME_005",	
+	"ConfigComment":"硬币",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"跳硬币",  		  
+				"condition": "my_hero(turn()) == 1 AND my_hand(count(), cardid = AT_052) == 1",
+				"value":"1000",
+			},
+		],
+	},
+
+}

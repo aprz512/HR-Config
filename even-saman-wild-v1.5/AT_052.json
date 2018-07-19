@@ -7,9 +7,9 @@
 		"values":
 		[
 			{
-				"comment":"2费下这个就很吊",  		  
-				"condition": "my_hero(turn()) < 4",
-				"value":"90",
+				"comment":"1费下这个就很吊，跳硬币",  		  
+				"condition": "my_hero(turn()) == 1",
+				"value":"1000",
 			},
 		],
 	},

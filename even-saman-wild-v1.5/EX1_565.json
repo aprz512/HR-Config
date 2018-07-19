@@ -16,6 +16,11 @@
 				"condition": "my_minions(count()) > 1 AND my_minions(count(), cardid = GVG_037) > 0",
 				"value":"100",
 			},
+			{
+				"comment":"场上有随从再下",
+				"condition": "my_minions(count()) < 1",
+				"value":"0",
+			}
 		],
 	},
 
