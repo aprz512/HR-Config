@@ -2,7 +2,7 @@
 # 职业：法师
 # 模式：狂野模式
 #
-# 2x (1) 暗金教侍从
+# 1x (1) 暗金教侍从
 # 2x (2) 对空奥术法师
 # 2x (2) 疯狂的科学家
 # 2x (2) 秘法学家
@@ -14,12 +14,13 @@
 # 2x (3) 法术反制
 # 1x (3) 火焰结界
 # 2x (3) 爆炸符文
+# 1x (3) 老旧的火把
 # 2x (3) 肯瑞托法师
 # 2x (4) 火球术
 # 2x (5) 云雾王子
 # 2x (6) 暗金教水晶侍女
 # 1x (6) 艾露尼斯
 # 
-AAEBAf0EBMABiQ6i0wK/pAMNcbsC7AX3Dde2Auu6Aoe9AsHBAo/TAr6kA92pA/SrA4i2AwA=
+AAEBAf0EBsABiQ66Fuu6AqLTAr+kAwxxuwLsBfcN17YCh70CwcECj9MCvqQD3akD9KsDiLYDAA==
 # 
 # 想要使用这副套牌，请先复制到剪贴板，然后在游戏中点击“新套牌”进行粘贴。
